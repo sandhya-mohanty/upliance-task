@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
-import { Button, Box, Typography, Container, Grid } from "@mui/material";
+import { Button, Typography, Container, Grid } from "@mui/material";
 
 const Counter: React.FC = () => {
   const [count, setCount] = useState<number>(0);

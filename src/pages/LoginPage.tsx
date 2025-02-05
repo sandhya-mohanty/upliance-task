@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Container, TextField, Button, Box, Typography, Grid, Paper } from "@mui/material";
+import { Container, TextField, Button,  Typography, Grid, Paper } from "@mui/material";
 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState("");
