@@ -17,6 +17,8 @@ const Navbar: React.FC = () => {
   const handleSignOut = () => {
     localStorage.removeItem("user"); // Remove user data from localStorage
     setUser(null); // Clear the state
+    window.location.reload(); // Ensure dashboard is reset
+
   };
 
   return (
